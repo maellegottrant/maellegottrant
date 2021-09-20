@@ -1,0 +1,6 @@
+s=int(input("somme initiale deposée sur un livret:"))
+t=int(input("taux dintérêts annel en porcentage:"))
+n=int(input("nombre dannées:"))
+for i in range(n):
+    s=s+s*t/100
+print(s)
