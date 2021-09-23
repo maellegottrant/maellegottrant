@@ -1,0 +1,9 @@
+s=0
+c=0
+n=int(input("nombre de notes:"))
+for i in range(n):
+    a=int(input("note:"))
+    coeff=int(input("coefficient:"))
+    s+=a*coeff
+    c+=coeff
+print(s/c)
