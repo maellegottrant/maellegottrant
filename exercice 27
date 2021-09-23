@@ -1,0 +1,6 @@
+n=int(input("nombre de chiffres:"))
+c=0
+for i in range (n):
+    a=int(input("entier entre 1 et 9:"))
+    b=(a*10**(n-1-i))+b
+print(b)
