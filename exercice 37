@@ -1,0 +1,5 @@
+n=int(input("entier:"))
+d=int(input("diviseur:"))
+
+if n%d==0:
+    print(n/d)
