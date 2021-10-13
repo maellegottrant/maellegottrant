@@ -1,0 +1,21 @@
+a= int(input("longueur côté 1:"))
+b= int(input("longueur côté 2:"))
+c= int(input("longueur côté 3:"))
+
+if a>0 and b>0 and c>0:
+  print("ces trois longueurs peuvent être les longeurs des trois côtés d'un triangle")
+
+else:
+  print("ces trois longueurs ne peuvent pas être les longeurs des trois côtés d'un triangle")
+  
+if a==b==c:
+  print("triangle équilatérale")
+  
+elif a==b or b==c or a==c:
+  print("triangle isocèle")
+  
+elif a!=b and b!=c and c!=a:
+  print("triangle scalène")
+  
+if a*a+c*c==b*b or a*a+b*b==c*c or c*c+b*b==a*a:
+  print("triangle rectangle")
