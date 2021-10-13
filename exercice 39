@@ -20,6 +20,3 @@ for i in range (n):
             print("Perdu")
     
     print (" Fin du tour ")
-
-
-creer une boucle
