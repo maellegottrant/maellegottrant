@@ -1,0 +1,14 @@
+nb_quilles = int(input(" nombre de quilles renversées: "))
+nb_chances = int(input(" nombre de boules: "))
+
+if nb_quilles == 10 and nb_chances == 1 :
+  print("10")
+   
+elif nb_quilles == 10 and nb_chances < 2 :
+  print ("10")
+
+elif nb_quilles > 10 and nb_chances > 2:
+  print("!")
+
+else :
+  print(nb_quilles)
