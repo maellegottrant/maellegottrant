@@ -12,3 +12,23 @@ elif nb_quilles > 10 and nb_chances > 2:
 
 else :
   print(nb_quilles)
+
+ou bien:
+
+a = int(input(" nombre de quilles renversées, boule 1: "))
+nb_quilles=10
+
+if a == 10 :
+   print("10")
+   
+elif a>10:
+  print("!")
+  
+elif a<10 :
+  b = int(input(" nombre de quilles renversées, boule 2: "))
+  b=nb_quilles-a
+  total= a+b
+  print(total)
+
+elif b>a :
+  print("!")
