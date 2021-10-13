@@ -1,10 +1,9 @@
-nb_quilles = int(input(" nombre de quilles renversées: "))
-nb_chances = int(input(" nombre de boules: "))
+a = int(input(" nombre de quilles renversées, boule 1: "))
+a<=10
 
-if nb_quilles == 10 and nb_chances == 1 :
+if a == 10 :
    print("10")
-elif nb_quilles == 10 and nb_chances == 2:
-  print("10")
 
-else :
-print(nb_quilles)
+if a < 10 :
+  b = int(input(" nombre de quilles renversées, boule 2: "))
+  print(a+b)
