@@ -1,0 +1,5 @@
+a=int(input("année:"))
+
+if :
+    print("année bissextile")
+if 
