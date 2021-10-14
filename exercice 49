@@ -1,0 +1,10 @@
+a=int(input("nombre a:"))
+b=int(input("nombre b:"))
+c=int(input("nombre c:"))
+
+if c<a<b:
+    print("plus petit")
+elif c>a>b:
+    print("plus grand")
+elif a<c<b or a>c>b:
+    print("entre les deux")
