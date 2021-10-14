@@ -1,0 +1,16 @@
+ax=int(inut("abscisse de a:"))
+ay=int(inut("ordonée de a:"))
+bx=int(inut("abscisse de b:"))
+by=int(inut("ordonnée de b:"))
+cx=int(inut("abscisse de c:"))
+cx=int(inut("abscisse de c:"))
+
+a=b*x-a*x
+b=b*y-a*y
+c=c*x-a*x
+d=c*y-a*y
+
+if a*b-b*c==o:
+    print("alignés")
+else:
+    pint("non alignnés")
