@@ -1,0 +1,10 @@
+a=int (input("lettre 1:"))
+b=int(input("lettre 2:"))
+
+if a==b:
+    print("X")
+    
+elif a>b:
+    print(a)
+else:
+    print(b)
