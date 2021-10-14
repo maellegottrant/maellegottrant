@@ -1,3 +1,5 @@
+question 1:
+
 a=int (input("lettre 1:"))
 b=int(input("lettre 2:"))
 
@@ -8,3 +10,25 @@ elif a>b:
     print(a)
 else:
     print(b)
+
+question 2:
+
+a=int (input("lettre 1:"))
+b=int(input("lettre 2:"))
+c=int(input("lettre 3:"))
+
+if a==b==c:
+    print("X")
+    
+elif a>b=>c:
+    print(a)
+
+if b>c=>a:
+    print(b)
+
+if c>b=>a:
+    print(c)
+    
+question 3:
+    
+    
