@@ -1,0 +1,31 @@
+from turtle import *
+
+n=int(input("entier:"))
+
+if n!=10:
+  up()
+  goto(0, 0)
+
+  for i in range (0, 11+1):
+    down()
+    forward (n)
+    up()
+    goto(0, 0)
+    left(90)
+    forward(n/10*i)
+    right(90)
+  
+  up()
+  goto(0, 0)
+  
+  for j in range (0, 11+1):
+    left(90)
+    down()
+    forward(n)
+    up()
+    goto(0, 0)
+    right(90)
+    forward(n/10*j)
+    
+else:
+  print("ce n'est pas possible")
