@@ -1,0 +1,10 @@
+a= int(input("année:"))
+
+if a/4 and a%4==0 :
+  print ("année bissextile")
+  
+if a/400 and a%400==0 :
+  print("année bissextile")
+  
+else:
+  print("année normale")
