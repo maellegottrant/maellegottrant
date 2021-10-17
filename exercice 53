@@ -11,7 +11,7 @@ if delta<0:
   
 if delta==0 and a!=0:
   x0=(-b)/2*a
-  print("unique solution:", s)
+  print("unique solution:", x0)
   
 if delta>0 and a!=0:
   x1=((-b)-sqrt(delta))/(2*a)
