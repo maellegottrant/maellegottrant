@@ -1,0 +1,7 @@
+def max3(a,b,c):
+    if max2(a,b)>c:
+        return max2(a,b)
+    if max2(a,b)<c:
+        return c
+    else:
+        return max2(a,b)==c
