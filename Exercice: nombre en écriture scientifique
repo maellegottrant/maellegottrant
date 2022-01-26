@@ -1,0 +1,29 @@
+def exposant(t8) :
+   global e
+   e =0
+   for i in range (8):
+      if t8[i] == 1:
+      e =e+2**(7-i)
+   e = e-127
+   return e
+
+def mantisse (t23) :
+   global m
+   m=1
+   acc= 1/2
+   for i in range(23) :
+      if t23[i]== 1:
+         m = m + acc
+      acc = acc/2
+   return m
+
+def flottant (t32) :
+   t8 = t32[1:9]
+   t23 = t32[9:32]
+   exposant(t8)
+   mantisse(t23)
+   if t32[0] == 1:
+      x=-(m*2**e)
+   else:
+      x = m*2**e
+   return x
